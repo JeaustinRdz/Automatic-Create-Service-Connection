@@ -16,7 +16,9 @@ For this example we will use the following documentation:
 ![image](https://github.com/user-attachments/assets/7feb01a7-1da1-409d-8d2c-9bc42f9a1347)
 
 2- Create a config file, in this case you can use the Configuration.json file attached in the repository
+
   2.1 to get the project ID please follow the documentation number 2 that is in the top of the document
+  
   2.2 The role: "8311e382-0749-4cb8-b61a-304f252e45ec" is the acr push role that have the permissions to read and write
 
 3- Use the yaml pipeline attached in the repository as a guide of how configure the pipeline, the line 18 and 19 is not required but help you to get the Service Connection ID
