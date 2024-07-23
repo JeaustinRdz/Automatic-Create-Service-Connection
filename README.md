@@ -10,7 +10,7 @@ For this example we will use the following documentation:
 3- Authenticate with Azure DevOps: https://learn.microsoft.com/en-us/azure/devops/cli/azure-devops-cli-in-yaml?view=azure-devops&tabs=bash#authenticate-with-azure-devops
 
 
-Steps to create automatically a service connection using Azure DevOps pipelines
+# Steps to create automatically a service connection using Azure DevOps pipelines
 
 1- Go to Project settings < Service Connections < Security < and add the "Pipelines Build Service (Your_Organization)" as administrator if not you will get an issue like the following:
 ![image](https://github.com/user-attachments/assets/7feb01a7-1da1-409d-8d2c-9bc42f9a1347)
