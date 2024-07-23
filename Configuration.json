@@ -1,0 +1,28 @@
+{
+    "data": {},
+    "name": "TestACR2",
+    "type": "dockerregistry",
+    "url": "https://management.azure.com/",
+    "authorization": {
+        "parameters": {
+            "loginServer": "jeaustintest.azurecr.io",
+            "role": "8311e382-0749-4cb8-b61a-304f252e45ec",
+            "scope": "/subscriptions/fb0ebed6-735b-4330-befe-dc1c635cab54/resourceGroups/Jeaustin/providers/Microsoft.ContainerRegistry/registries/JeaustinTest",
+            "tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3",
+            "accessTokenFetchingMethod": "1",
+            "accessToken": null
+        },
+        "scheme": "ServicePrincipal"
+    },
+    "isShared": true,
+    "serviceEndpointProjectReferences": [
+        {
+            "projectReference": {
+                "id": "f25ab252-dbff-4353-ad78-fda0280bca61",
+                "name": "Pipelines"
+            },
+            "name": "TestACR2",
+            "description": ""
+        }
+    ]
+  }
