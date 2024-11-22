@@ -1,14 +1,14 @@
 {
-       "data": {
-        "appObjectId": "",
-        "azureSpnPermissions": "",
-        "azureSpnRoleAssignmentId": "",
+    "data": {
+        "appObjectId": "83922a31-5d98-4f3f-8a94-9657dfdf83fc",
+        "azureSpnPermissions": "[{\"roleAssignmentId\":\"91ca8249-f414-4c23-8755-6b8c38a26afc\",\"resourceProvider\":\"Microsoft.RoleAssignment\",\"provisioned\":true}]",
+        "azureSpnRoleAssignmentId": "91ca8249-f414-4c23-8755-6b8c38a26afc",
         "registryId": "/subscriptions/fb0ebed6-735b-4330-befe-dc1c635cab54/resourceGroups/Jeaustin/providers/Microsoft.ContainerRegistry/registries/JeaustinTest",
         "registrytype": "ACR",
-        "spnObjectId": "",
+        "spnObjectId": "68162a58-aca6-4c9e-ab3a-16a2dc4b64fa",
         "subscriptionId": "fb0ebed6-735b-4330-befe-dc1c635cab54",
         "subscriptionName": "MCAPS-Support-REQ-80949-2024-v-jeaustinro",
-        "creationMode": "Automatic"
+        "creationMode": "none"
     },
     "name": "TestACR3",
     "type": "dockerregistry",
@@ -19,8 +19,8 @@
             "role": "8311e382-0749-4cb8-b61a-304f252e45ec",
             "scope": "/subscriptions/fb0ebed6-735b-4330-befe-dc1c635cab54/resourceGroups/Jeaustin/providers/Microsoft.ContainerRegistry/registries/JeaustinTest",
             "tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3",
-            "accessTokenFetchingMethod": "1",
-            "accessToken": null
+            "serviceprincipalid": "7d57178e-c30e-4615-973c-a574514abec9",
+            "servicePrincipalKey": null
         },
         "scheme": "ServicePrincipal"
     },
