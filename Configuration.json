@@ -4,7 +4,7 @@
         "spnObjectId": "68162a58-aca6-4c9e-ab3a-16a2dc4b64fa",
         "subscriptionId": "fb0ebed6-735b-4330-befe-dc1c635cab54",
         "subscriptionName": "MCAPS-Support-REQ-80949-2024-v-jeaustinro",
-        "creationMode": "manual"
+        "creationMode": "none"
     },
     "name": "TestACR4",
     "type": "dockerregistry",
