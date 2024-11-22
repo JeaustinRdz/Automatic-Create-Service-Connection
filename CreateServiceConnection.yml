@@ -20,4 +20,7 @@ steps:
   env:
     AZURE_DEVOPS_EXT_PAT: $(System.AccessToken)
 
-
+- task: Docker@2
+  inputs:
+    containerRegistry: 'TestACR3'
+    command: 'login'
