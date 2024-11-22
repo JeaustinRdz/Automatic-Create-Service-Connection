@@ -1,5 +1,15 @@
 {
-    "data": {},
+       "data": {
+        "appObjectId": "",
+        "azureSpnPermissions": "",
+        "azureSpnRoleAssignmentId": "",
+        "registryId": "/subscriptions/fb0ebed6-735b-4330-befe-dc1c635cab54/resourceGroups/Jeaustin/providers/Microsoft.ContainerRegistry/registries/JeaustinTest",
+        "registrytype": "ACR",
+        "spnObjectId": "",
+        "subscriptionId": "fb0ebed6-735b-4330-befe-dc1c635cab54",
+        "subscriptionName": "MCAPS-Support-REQ-80949-2024-v-jeaustinro",
+        "creationMode": "Automatic"
+    },
     "name": "TestACR3",
     "type": "dockerregistry",
     "url": "https://management.azure.com/",
