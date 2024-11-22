@@ -1,4 +1,16 @@
 {
+    {
+    "data": {
+        "appObjectId": "83922a31-5d98-4f3f-8a94-9657dfdf83fc",
+        "azureSpnPermissions": "[{\"roleAssignmentId\":\"91ca8249-f414-4c23-8755-6b8c38a26afc\",\"resourceProvider\":\"Microsoft.RoleAssignment\",\"provisioned\":true}]",
+        "azureSpnRoleAssignmentId": "91ca8249-f414-4c23-8755-6b8c38a26afc",
+        "registryId": "/subscriptions/fb0ebed6-735b-4330-befe-dc1c635cab54/resourceGroups/Jeaustin/providers/Microsoft.ContainerRegistry/registries/JeaustinTest",
+        "registrytype": "ACR",
+        "spnObjectId": "68162a58-aca6-4c9e-ab3a-16a2dc4b64fa",
+        "subscriptionId": "fb0ebed6-735b-4330-befe-dc1c635cab54",
+        "subscriptionName": "MCAPS-Support-REQ-80949-2024-v-jeaustinro",
+        "creationMode": "automatic"
+    },
     "name": "TestACR3",
     "type": "dockerregistry",
     "url": "https://management.azure.com/",
