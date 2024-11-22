@@ -1,10 +1,8 @@
 {
     {
     "data": {
-        "spnObjectId": "68162a58-aca6-4c9e-ab3a-16a2dc4b64fa",
         "subscriptionId": "fb0ebed6-735b-4330-befe-dc1c635cab54",
         "subscriptionName": "MCAPS-Support-REQ-80949-2024-v-jeaustinro",
-        "creationMode": "none"
     },
     "name": "TestACR4",
     "type": "dockerregistry",
@@ -16,7 +14,7 @@
             "scope": "/subscriptions/fb0ebed6-735b-4330-befe-dc1c635cab54/resourceGroups/Jeaustin/providers/Microsoft.ContainerRegistry/registries/JeaustinTest",
             "tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3",
             "serviceprincipalid": "7d57178e-c30e-4615-973c-a574514abec9",
-            "servicePrincipalKey": null
+            "serviceprincipalkey": "$(Token)"  
         },
         "scheme": "ServicePrincipal"
     },
