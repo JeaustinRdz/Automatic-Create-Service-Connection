@@ -15,11 +15,11 @@
         "scheme": "ServicePrincipal"
     },
     "isShared": true,
-    "serviceEndpointProjectReferences": [
+     "serviceEndpointProjectReferences": [
         {
             "projectReference": {
-                "id": "f25ab252-dbff-4353-ad78-fda0280bca61",
-                "name": "Pipelines"
+                "id": "0ca84cc8-fbeb-4758-aad0-ded156b0f4e1",
+                "name": "JeaustinProject"
             },
             "name": "TestACR3",
             "description": ""
