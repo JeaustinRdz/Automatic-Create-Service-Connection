@@ -1,6 +1,6 @@
 {
     "data": {},
-    "name": "TestACR2",
+    "name": "TestACR3",
     "type": "dockerregistry",
     "url": "https://management.azure.com/",
     "authorization": {
