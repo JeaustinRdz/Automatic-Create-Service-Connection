@@ -14,7 +14,7 @@ steps:
     targetType: 'inline'
     script: |
         echo "Creating the Service Connection"
-        ServiceConnection=$(az devops service-endpoint create --service-endpoint-configuration ./Configuration.json)
+        ServiceConnection=$(az devops service-endpoint create --service-endpoint-configuration ./Configuration.json --organization https://dev.azure.com/v-jeaustinro)
         ServiceConnectionID=$(echo $ServiceConnection | jq -r '.id')
         echo "Service Connection ID: $ServiceConnectionID"
   env:
