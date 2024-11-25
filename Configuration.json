@@ -1,0 +1,48 @@
+{
+    "data": {
+        "appObjectId": "$(AppRegistrationId)",
+        "azureSpnPermissions": "[{\"roleAssignmentId\":\"a2388128-c3f5-44a4-a146-4d97c125ab1b\",\"resourceProvider\":\"Microsoft.RoleAssignment\",\"provisioned\":true}]",
+        "azureSpnRoleAssignmentId": "a2388128-c3f5-44a4-a146-4d97c125ab1b",
+        "registryId": "/subscriptions/$(SubscriptionId)/resourceGroups/Jeaustin/providers/Microsoft.ContainerRegistry/registries/JeaustinTest",
+        "registrytype": "ACR",
+        "spnObjectId": "$(EnterpriseApplicationnId)",
+        "subscriptionId": "$(SubscriptionId)",
+        "subscriptionName": "$(SubscriptionName)",
+        "creationMode": "Manual"
+    },
+    "name": "$(ServiceConnectionName)",
+    "type": "dockerregistry",
+    "url": "https://management.azure.com/",
+    "description": "",
+    "authorization": {
+        "parameters": {
+            "loginServer": "$(DockerRegistryName).azurecr.io",
+            "role": "8311e382-0749-4cb8-b61a-304f252e45ec",
+            "scope": "/subscriptions/$(SubscriptionId)/resourceGroups/Jeaustin/providers/Microsoft.ContainerRegistry/registries/$(DockerRegistryName)",
+            "tenantId": "$(TenantId)",
+            "serviceprincipalid": "$(serviceprincipalid)",
+            "servicePrincipalKey": null
+        },
+        "scheme": "ServicePrincipal"
+    },
+    "isShared": false,
+    "isOutdated": false,
+    "isReady": true,
+    "operationStatus": {
+        "state": "Ready",
+        "statusMessage": "",
+        "severity": null,
+        "errorCode": null
+    },
+    "serviceEndpointProjectReferences": [
+        {
+            "projectReference": {
+                "id": "$(ProjectID)",
+                "name": "$(ProjectName)"
+            },
+            "name": "$(ServiceConnectionName)",
+            "description": ""
+        }
+    ],
+    "serviceManagementReference": null
+}
