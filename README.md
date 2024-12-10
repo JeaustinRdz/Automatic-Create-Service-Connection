@@ -10,7 +10,7 @@ This repository contains the step-by-step guide to automatically create a servic
 
 ## Steps to Automatically Create a Service Connection Using Azure DevOps Pipelines
 
-1. Go to **Project settings** > **Service Connections** > **Security** and add the **"Pipelines Build Service (Your_Organization)"** as an administrator. If not, you will encounter an issue like the following:
+1. Go to **Project settings** > **Service Connections** > **Security** and add the **"Project Build Service (Your_Organization)"** as an administrator. If not, you will encounter an issue like the following:
    ![image](https://github.com/user-attachments/assets/c7a616c8-c6d9-4306-8ad7-0222ca89bb83)
 
 
